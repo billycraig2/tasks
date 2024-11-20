@@ -1,6 +1,4 @@
 # TASK 1 - Write a python code with accepts the below input and return the given output
-message = input("Input: ").lower
-
 def letter_frequency(message):
     message_dict = {}
     # looping through each letter of the input 
@@ -15,4 +13,5 @@ def letter_frequency(message):
     for key in message_dict:
         print("Frequency of " + key + " is " + str(message_dict[key]))
 
+message = input("Input: ").lower
 letter_frequency(message)
