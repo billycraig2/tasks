@@ -1,6 +1,6 @@
 import re
 
-# TASK 3 - Take an array of strings as input and segregate them to ipv4 and ipv6 using regex.
+
 # uses regex to print if email is valid
 def check_email(email):
     # checks string with regex
