@@ -11,6 +11,6 @@ def longest_word(message):
     longest_word = reduce(lambda a, b: a if len(a) > len(b) else b, split_words)
     return longest_word
     
-message = input('Input: ')
+#message = input('Input: ')
 
-print(longest_word(message))
+#print(longest_word(message))
