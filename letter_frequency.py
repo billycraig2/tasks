@@ -13,5 +13,5 @@ def letter_frequency(message):
     for key in message_dict:
         print("Frequency of " + key + " is " + str(message_dict[key]))
 
-message = input("Input: ").lower
+message = input("Input: ").lower()
 letter_frequency(message)
