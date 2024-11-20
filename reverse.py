@@ -1,4 +1,6 @@
 # TASK 7 - Rotate the values of the array
+
+# reverses the elements of an array
 def reverse_list(input):
     # go through each element and swap to position
     for i in range(len(input)//2):

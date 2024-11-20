@@ -1,5 +1,5 @@
 # TASK 5 - Sort the given array of numbers
-input = [1,2,3,2,2,2,3,1,1]
+
 
 # go through each element if the element to the right is bigger it swaps them
 def sort_list(input):
@@ -10,10 +10,7 @@ def sort_list(input):
             else:
                 continue
 
-    print(input)
+    return input
 
+input = [1,2,3,2,2,2,3,1,1]
 sort_list(input)
-
-
-sorted_list = sorted(input)
-print(sorted_list)
